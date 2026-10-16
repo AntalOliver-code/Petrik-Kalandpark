@@ -111,6 +111,7 @@ namespace Petrik_Kalandpark
             Console.Write("\nVálasztás: ");
             answer = Convert.ToInt32(Console.ReadLine());
 
+            Console.Write("Magassag: ");
             height = Convert.ToInt32(Console.ReadLine());
 
             switch (answer)
